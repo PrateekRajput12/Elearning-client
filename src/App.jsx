@@ -7,6 +7,7 @@ import Home from './Pages/home/Home'
 import Login from './Pages/auth/Login.jsx'
 import Register from './Pages/auth/Register'
 import Verify from './Pages/auth/verify'
+import Footer from './component/footer/Footer.jsx'
 const App = () => {
   return (
     <BrowserRouter>
@@ -19,6 +20,7 @@ const App = () => {
 
 
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }
